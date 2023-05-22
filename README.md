@@ -1,1 +1,1 @@
-# us4r_user_manual
+# Us4R and Us4R-lite user manual
