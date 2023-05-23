@@ -62,3 +62,33 @@ master_doc = 'index'
 
 latex_documents = [('index', 'user_manual.tex', project, author, 'manual')]
 
+latex_elements = {
+    'preamble': r"""
+\makeatletter
+   \fancypagestyle{normal}{
+% this is the stuff in sphinx.sty
+    \fancyhf{}
+    \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
+% we comment this out and
+    %\fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
+    %\fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+% add copyright stuff
+    \fancyfoot[LO,RE]{{\textcopyright\ 2023, us4us Ltd.}}
+% again original stuff
+    \fancyhead[LE,RO]{{\py@HeaderFamily \@title\sphinxheadercomma\py@release}}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+    }
+% this is applied to each opening page of a chapter
+   \fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+% add copyright stuff for example at left of footer on odd pages,
+% which is the case for chapter opening page by default
+    \fancyfoot[LO,RE]{{\textcopyright\ 2023, us4us Ltd.}}
+    }
+\makeatother
+""",
+}
