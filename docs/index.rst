@@ -10,6 +10,12 @@ Us4R & Us4R-lite User Manual
    :maxdepth: 2
    :caption: User Manual
 
-   content/safety
-   content/warranty
-   content/system_overview
+   content/intro
+   content/set-up
+   content/hardware
+   content/software
+   content/manufacturer_guidelines
+   content/technical_specification
+   content/legend_of_symbols
+   content/current_limitations
+   content/version_history
