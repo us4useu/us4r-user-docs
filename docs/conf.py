@@ -16,7 +16,7 @@
 from datetime import datetime
 
 html_theme = 'sphinx_rtd_theme'
-html_logo = "https://us4us.eu/wp-content/uploads/2018/10/us4us-logo-white.png"
+html_logo = "_static/us4us-logo-white.png"
 
 current_year = datetime.now().year
 
@@ -58,6 +58,9 @@ html_theme_options = {
     # Set the name of the project to appear in the sidebar
 }
 
+html_css_files = [
+    'custom.css',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
