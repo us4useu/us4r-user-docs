@@ -1,96 +1,54 @@
-[]{#_Toc88320935 .anchor}**Legend of symbols**
+---
+myst:
+  substitutions:
+    emc_symbol: |
+      ```{image} img/emc.png
+      :alt: emc
+      :width: 50px
+      :align: center
+      ```
+    onoff_symbol: |
+      ```{image} img/onoff.png
+      :alt: onoff
+      :width: 50px
+      :align: center
+      ```
+    dry_symbol: |
+      ```{image} img/dry.png
+      :alt: dry
+      :width: 50px
+      :align: center
+      ```
+    temperatures_symbol: |
+      ```{image} img/temperatures.png
+      :alt: dry
+      :width: 50px
+      :align: center
+      ```
+    manufacture_date_symbol: |
+      ```{image} img/manufacture_date.png
+      :alt: dry
+      :width: 50px
+      :align: center
+      ```
+    weee_symbol: |
+      ```{image} img/weee.png
+      :alt: weee
+      :width: 50px
+      :align: center
+      ```
+---
 
-+------------+---------------------------------------------------------+
-| **SYMBOL** | **DESCRIPTION**                                         |
-+============+=========================================================+
-| ![](       | Radiation/electromagnetic interference                  |
-| vertopal_5 |                                                         |
-| 0692289efe |                                                         |
-| e4a6b8be98 |                                                         |
-| d0c36fa44c |                                                         |
-| f/media/im |                                                         |
-| age14.emf) |                                                         |
-+------------+---------------------------------------------------------+
-| ![]        | CAUTION!                                                |
-| (vertopal_ |                                                         |
-| 50692289ef | Consult the instruction manual before use.              |
-| ee4a6b8be9 |                                                         |
-| 8d0c36fa44 |                                                         |
-| cf/media/i |                                                         |
-| mage15.png |                                                         |
-| ){width="0 |                                                         |
-| .641666666 |                                                         |
-| 6666667in" |                                                         |
-| height="0. |                                                         |
-| 6416666666 |                                                         |
-| 666667in"} |                                                         |
-+------------+---------------------------------------------------------+
-| ![](       | ON/OFF Switch.                                          |
-| vertopal_5 |                                                         |
-| 0692289efe |                                                         |
-| e4a6b8be98 |                                                         |
-| d0c36fa44c |                                                         |
-| f/media/im |                                                         |
-| age16.jpeg |                                                         |
-| ){width="0 |                                                         |
-| .507638888 |                                                         |
-| 8888889in" |                                                         |
-| height="0. |                                                         |
-| 4951388888 |                                                         |
-| 888889in"} |                                                         |
-+------------+---------------------------------------------------------+
-| ![]        | Keep in a dry place.                                    |
-| (vertopal_ |                                                         |
-| 50692289ef |                                                         |
-| ee4a6b8be9 |                                                         |
-| 8d0c36fa44 |                                                         |
-| cf/media/i |                                                         |
-| mage17.png |                                                         |
-| ){width="0 |                                                         |
-| .770833333 |                                                         |
-| 3333334in" |                                                         |
-| height=    |                                                         |
-| "0.425in"} |                                                         |
-+------------+---------------------------------------------------------+
-| ![]        | Range of allowable temperatures.                        |
-| (vertopal_ |                                                         |
-| 50692289ef |                                                         |
-| ee4a6b8be9 |                                                         |
-| 8d0c36fa44 |                                                         |
-| cf/media/i |                                                         |
-| mage18.png |                                                         |
-| ){width="0 |                                                         |
-| .897222222 |                                                         |
-| 2222223in" |                                                         |
-| height="0. |                                                         |
-| 6180555555 |                                                         |
-| 555556in"} |                                                         |
-+------------+---------------------------------------------------------+
-| ![]        | WEEE -- electronic device, should be disposed of        |
-| (vertopal_ | according to existing regulations.                      |
-| 50692289ef |                                                         |
-| ee4a6b8be9 |                                                         |
-| 8d0c36fa44 |                                                         |
-| cf/media/i |                                                         |
-| mage19.png |                                                         |
-| ){width="0 |                                                         |
-| .863136482 |                                                         |
-| 9396325in" |                                                         |
-| height="0. |                                                         |
-| 5188681102 |                                                         |
-| 362205in"} |                                                         |
-+------------+---------------------------------------------------------+
-| ![]        | Date of manufacture.                                    |
-| (vertopal_ |                                                         |
-| 50692289ef |                                                         |
-| ee4a6b8be9 |                                                         |
-| 8d0c36fa44 |                                                         |
-| cf/media/i |                                                         |
-| mage20.png |                                                         |
-| ){width="0 |                                                         |
-| .510416666 |                                                         |
-| 6666666in" |                                                         |
-| height="0. |                                                         |
-| 6770833333 |                                                         |
-| 333334in"} |                                                         |
-+------------+---------------------------------------------------------+
+# Legend of symbols
+
+
+| **SYMBOL**              | **DESCRIPTION**                                                                                        |
+|-------------------------|--------------------------------------------------------------------------------------------------------|
+| {{emc_symbol}}          | Radiation/electromagnetic interference                                                                 |
+| {{onoff_symbol}}        | ON/OFF switch                                                                                          |
+| {{dry_symbol}}          | Keep in a dry place                                                                                    |
+| {{temperatures_symbol}} | Range of allowable temperatures.                                                                       |
+| {{manufacture_date_symbol}}  | Date of manufacture.                                                                                   |
+| {{weee_symbol}}         | WEEE -- electronic device, should be disposed of according to existing regulations.                    |
+
+

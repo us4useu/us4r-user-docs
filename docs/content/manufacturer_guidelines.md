@@ -29,7 +29,7 @@ The **us4R™** is designed for use in the following conditions:
 
 ## Manufacturer EMC recommendations
 
-![](img/image14.emf)
+![](img/emc.png)
 
 The device has limited immunity to electromagnetic interference and thus
 should be kept as far as possible from its sources (such as mobile
@@ -44,11 +44,11 @@ The device has no elements sensitive to a 50Hz/60Hz magnetic field.
 It is advised that the device operate at room temperature and at
 moderate humidity. Any mechanical shocks should be avoided.
 
-![WARNING](img/icon-warning.png) | The Manufacturer recommends that you contact the service and perform a technical inspection (at the Manufacturer or remotely) if you suspect that the device has been mechanically damaged or otherwise diverges from normal appearance.
--|-
+:::{warning}
+The Manufacturer recommends that you contact the service and perform a technical inspection (at the Manufacturer or remotely) if you suspect that the device has been mechanically damaged or otherwise diverges from normal appearance.
+:::
   
-The sole service provider for this device is the Manufacturer, us4us
-Ltd.
+The sole service provider for this device is the Manufacturer, us4us Ltd.
 
 The **us4R™** is an electronic device and should be disposed of
 according to existing regulations.

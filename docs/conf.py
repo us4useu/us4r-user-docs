@@ -22,7 +22,7 @@ current_year = datetime.now().year
 
 # -- Project information -----------------------------------------------------
 
-project = 'Us4R/Us4R-lite User Manual'
+project = 'Us4R User Manual'
 copyright = f"{current_year}, us4us Ltd"
 author = 'us4us Ltd'
 
@@ -35,6 +35,22 @@ author = 'us4us Ltd'
 extensions = [
     "myst_parser",
     "sphinxcontrib.jquery"
+]
+
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
 ]
 
 html_theme_options = {

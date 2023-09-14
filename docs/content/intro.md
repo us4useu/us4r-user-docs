@@ -4,18 +4,16 @@ The Advanced Ultrasound Research Platform **(us4R™)** is an ultrasonic
 system intended to be used in an uncontrolled laboratory setting for
 ultrasound R&D, in particular for real-time implementation of new
 imaging modalities and algorithms in biomedical and non-destructive
-testing applications. [The system is not a medical device and is not
-intended for use on humans.]{.underline}
+testing applications. **The system is not a medical device and is not
+intended for use on humans.**
 
 The **us4R™** is a fully programmable ultrasound device built on a novel
 architecture optimized for streaming acquisition and software processing
 of raw RF echo signals with the help of GPUs.
 
-
-![WARNING](img/icon-warning.png) | The device can only be operated by users with a base knowledge of programming and fundamental PC skills. It is essential that users read the full text of the instruction manual before operating the device.|
--|-
-
+:::{warning}
 The device can only be operated by users with a base knowledge of programming and fundamental PC skills. It is essential that users read the full text of the instruction manual before operating the device.
+:::
 
 # Interaction of ultrasound
 
@@ -41,5 +39,6 @@ absorption process, part of the energy is converted into heat.
 
 For a detailed examination of ultrasound safety, please consult *The Safe Use of Ultrasound in Medical Diagnosis*, 3rd ed., edited by Gail ter Haar.
 
-![WARNING](img/icon-warning.png) | The user creating a new transmit schema for the us4R™ should always consider the mentioned effects of the ultrasonic wave in a given medium/propagation environment.
--|-
+:::{warning}
+The user creating a new transmit schema for the us4R™ should always consider the mentioned effects of the ultrasonic wave in a given medium/propagation environment.
+:::
