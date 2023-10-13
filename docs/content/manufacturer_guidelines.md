@@ -39,6 +39,10 @@ values should be ignored.
 
 The device has no elements sensitive to a 50Hz/60Hz magnetic field.
 
+**§ 15.105 Information to the user.**
+
+~~This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in a commercial environment. This equipment generates, uses, and can radiate radio frequency energy and, if not installed and used in accordance with the instruction manual, may cause harmful interference to radio communications. Operation of this equipment in a residential area is likely to cause harmful interference in which case the user will be required to correct the interference at his own expense.~~
+
 ## Other conditions and recommendations
 
 It is advised that the device operate at room temperature and at
