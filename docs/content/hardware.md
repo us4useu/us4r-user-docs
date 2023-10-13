@@ -1,14 +1,14 @@
 # Description and general rules of use
 
-:::{warning}
+:::{Attention}
 The device can only be operated by users with a base knowledge of programming and fundamental PC skills. It is essential that users read the full text of the instruction manual before operating the device.
 :::
 
-:::{warning}
+:::{Attention}
 Before first use, you must ensure that the device is complete and in good condition. Any mechanical damage, spillage stains or similar faults require servicing. Under no circumstances can a faulty or damaged network cable be used.
 :::
 
-:::{warning}
+:::{Attention}
 Using the us4R™ out of its intended use, or any use that has not been delineated in this manual, will lower the effectiveness of measures put in place to protect the user from danger, and result in a decrease of safety levels.
 :::
   
@@ -31,12 +31,12 @@ The processed data can be presented graphically on an LCD monitor. The LCD monit
 
 The LCD monitor can be connected to the PC using a dedicated DisplayPort cable.
 
-:::{warning}
+:::{Danger}
 Never unplug the probe from the device during transmission!
 This can result in damage to the transmit section of the us4R™ device!
 :::
 
-:::{warning}
+:::{Attention}
 The device is not equipped with life functions monitoring or alarm systems. 
 The us4R™ is not designed to monitor life functions!
 :::
@@ -94,7 +94,7 @@ A video instruction on how to change the probe adapter for 2D (linear/phase/conv
 
 **PLEASE NOTE:** Only a probe prepared and configured for use with the **us4R™** can be connected to the device. For assistance, please contact the Manufacturer.
 
-:::{warning}
+:::{Danger}
 Using non-compatible or broken probes can result in damage to the transmission section of the us4R™!
 Such damages are NOT covered under the warranty!
 :::
@@ -169,7 +169,7 @@ standard available on the SMA-type connectors:
 ## Setting High-Voltage (HV) supply for the transmitters
 
 
-:::{warning}
+:::{Caution}
 Voltages above 70VDC constitute a life hazard according to EN 61010-1 and great care must be takes when using the power supply at voltages above this level!
 :::
 
@@ -199,7 +199,7 @@ and the need for servicing.
 The cover of the device can be cleaned with a piece of dry cloth,
 ensuring no liquids are transported inside.
 
-:::{warning}
+:::{Caution}
 You must ensure that no liquids find their way inside the device!
 In case of suspected spillage or moisture inside the device, 
 do not connect the device to a power source or attempt to  

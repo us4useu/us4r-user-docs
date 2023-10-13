@@ -44,8 +44,9 @@ The device has no elements sensitive to a 50Hz/60Hz magnetic field.
 It is advised that the device operate at room temperature and at
 moderate humidity. Any mechanical shocks should be avoided.
 
-:::{warning}
-The Manufacturer recommends that you contact the service and perform a technical inspection (at the Manufacturer or remotely) if you suspect that the device has been mechanically damaged or otherwise diverges from normal appearance.
+:::{Caution}
+The Manufacturer recommends that you contact the service and perform a technical inspection (at the Manufacturer or remotely) 
+if you suspect that the device has been mechanically damaged or otherwise diverges from normal appearance.
 :::
   
 The sole service provider for this device is the Manufacturer, us4us Ltd.
