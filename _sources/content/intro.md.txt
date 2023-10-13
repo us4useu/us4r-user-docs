@@ -11,7 +11,7 @@ The **us4R™** is a fully programmable ultrasound device built on a novel
 architecture optimized for streaming acquisition and software processing
 of raw RF echo signals with the help of GPUs.
 
-:::{warning}
+:::{Attention}
 The device can only be operated by users with a base knowledge of programming and fundamental PC skills. It is essential that users read the full text of the instruction manual before operating the device.
 :::
 
@@ -29,7 +29,7 @@ subjects. Nevertheless, it is important to understand how ultrasound
 interacts with tissues and realize the possible bioeffects caused by
 mechanical waves.
 
-These bioeffects fall within two categories: mechanical -- related to
+These bio-effects fall within two categories: mechanical -- related to
 the possibility of cavitation, and thermal -- related to the absorption
 of wave energy by the tissue, which is converted into heat. The
 amplitude of an ultrasound wave propagating in any absorbing medium,
@@ -39,6 +39,6 @@ absorption process, part of the energy is converted into heat.
 
 For a detailed examination of ultrasound safety, please consult *The Safe Use of Ultrasound in Medical Diagnosis*, 3rd ed., edited by Gail ter Haar.
 
-:::{warning}
+:::{Attention}
 The user creating a new transmit schema for the us4R™ should always consider the mentioned effects of the ultrasonic wave in a given medium/propagation environment.
 :::

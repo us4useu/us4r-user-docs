@@ -6,7 +6,7 @@ The user must connect the components and perform a setup before the
 first use (see: **5 System setup**)*.* The unboxing of the device should
 be performed with utmost care.
 
-:::{warning}
+:::{Caution}
 If the device was placed in an environment with climatic conditions that sharply diverge from normal office conditions, it should undergo a process of acclimatization before the first use. This comprises of leaving the device out of the transport packaging for a minimum of 12 hours.
 :::
 
@@ -37,7 +37,7 @@ cause interference, resulting in a falsification of the image.
 A proper operation of the device is described in the next chapters of
 this manual.
 
-:::{warning}
+:::{Caution}
 The power cables should be plugged into the 120-230VAC/50Hz/60Hz mains power supply with a protective bonding.
 :::
 
@@ -90,7 +90,7 @@ us at <support@us4us.eu> to discuss the options.
 
 # Power supply connection
 
-:::{warning}
+:::{Caution}
 The 120-230VAC power socket used to power the us4R™ must be equipped with a protective earth wire. It is imperative to ensure that the electrical system provides the fire protection required for the class I devices.
 :::
 
@@ -98,7 +98,7 @@ A loss of mains power during operation will result in an immediate
 shutdown of the device. The **us4R™** will restart once the power is
 restored.
 
-:::{warning}
+:::{Caution}
 To shut down the us4R™ in case of malfunction, remove the mains power cable from the electrical socket. The electrical sockets should be situated in proximity to the device and be easily accessible.
 :::
 
@@ -135,7 +135,7 @@ The us4R™ AC power connector.
 
 ## First use
 
-:::{warning}
+:::{Danger}
 Never unplug the probe from the device during transmission!
 This can result in damage to the transmission unit of the us4R™.
 :::
