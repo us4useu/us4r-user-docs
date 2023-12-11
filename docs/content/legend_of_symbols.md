@@ -7,6 +7,12 @@ myst:
       :width: 50px
       :align: center
       ```
+    warning_symbol: |
+      ```{image} img/warning.png
+      :alt: emc
+      :width: 50px
+      :align: center
+      ```
     onoff_symbol: |
       ```{image} img/onoff.png
       :alt: onoff
@@ -27,6 +33,12 @@ myst:
       ```
     manufacture_date_symbol: |
       ```{image} img/manufacture_date.png
+      :alt: dry
+      :width: 50px
+      :align: center
+      ```
+    ce_symbol: |
+      ```{image} img/ce.png
       :alt: dry
       :width: 50px
       :align: center
