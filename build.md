@@ -23,12 +23,12 @@ sudo apt-get install latexmk
 
 To build the documentation on Linux:
 ```
-make html pdf
+make html latexpdf
 ```
 (note: you can skip the `html` or `pdf` if you don't need that output format)
 
 To build the documentation on Windows:
 ```
-make.bat html pdf
+make.bat latexpdf
 ```
 
