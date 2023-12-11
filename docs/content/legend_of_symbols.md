@@ -56,11 +56,17 @@ myst:
 
 | **SYMBOL**              | **DESCRIPTION**                                                                                        |
 |-------------------------|--------------------------------------------------------------------------------------------------------|
-| {{emc_symbol}}          | Radiation/electromagnetic interference                                                                 |
+| {{emc_symbol}}          | Radiation/electromagnetic interference
+|
+| {{warning_symbol}}      | CAUTION! Consult the instruction manual before use.  
+|
 | {{onoff_symbol}}        | ON/OFF switch                                                                                          |
 | {{dry_symbol}}          | Keep in a dry place                                                                                    |
 | {{temperatures_symbol}} | Range of allowable temperatures.                                                                       |
-| {{manufacture_date_symbol}}  | Date of manufacture.                                                                                   |
+| {{manufacture_date_symbol}}  | Date of manufacture. 
+|
+| {{ce_symbol}}           | CE mark confirming the completion of conformity assessment of the product.
+|
 | {{weee_symbol}}         | WEEE -- electronic device, should be disposed of according to existing regulations.                    |
 
 
