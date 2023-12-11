@@ -22,13 +22,15 @@
 
 -   the **us4R™** device (with probe adapter)
 
--   PC system controller with GPU cards
-
 -   4 or 8 PCIe cable
 
--   2x mains power cable
+-   1 or 2 PCIe card adapter
+
+-   1x mains power cable
 
 -   (optional) ultrasound probe
+
+-   (optional) PC system controller with GPU cards
 
 -   User Manual
 
