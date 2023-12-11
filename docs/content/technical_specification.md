@@ -24,7 +24,7 @@
 
 -   4 or 8 PCIe cable
 
--   1 or 2 PCIe card adapter
+-   1 or 2 PCIe adapter card
 
 -   1x mains power cable
 

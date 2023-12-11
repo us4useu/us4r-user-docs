@@ -14,7 +14,7 @@ The packaging should include:
 
 -   **us4R™** device (with probe adapter) -- 1 pcs.;
 -   PCIe cables -- 4 or 8 pcs.;
--   PCIe card adapter -- 1 or 2 pcs.;
+-   PCIe adapter card -- 1 or 2 pcs.;
 -   mains power cable -- 1 pcs.;
 -   (optional) PC system controller -- 1 pcs.;
 -   (optional) ultrasound probe(s).
