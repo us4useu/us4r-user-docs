@@ -9,6 +9,7 @@ Us4R & Us4R-lite User Manual
 .. toctree::
    :maxdepth: 2
    :caption: User Manual
+   :numbered:
 
    content/intro
    content/set-up

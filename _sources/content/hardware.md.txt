@@ -1,3 +1,4 @@
+(hardware/general)=
 # Description and general rules of use
 
 :::{Attention}
@@ -80,7 +81,7 @@ The ultrasound probe connectors are situated at the top of the device.
 2D probes (linear/phase/convex) connectors are marked as ***PROBE A***
 and ***PROBE B*** on the figure below.
 
-Please refer to section ***3.1 Probe Adapters*** for other probe
+Please refer to section {numref}`Section %s <set-up/probe-adapters>` for other probe
 adapters options.
 
 ```{figure} img/us4r+pc+probe.jpeg
