@@ -3,8 +3,9 @@
 The device is delivered to the user pre-assembled and boxed.
 
 The user must connect the components and perform a setup before the
-first use (see: **5 System setup**)*.* The unboxing of the device should
+first use (see: [System setup](#-system-setup))*.* The unboxing of the device should
 be performed with utmost care.
+
 
 :::{Caution}
 If the device was placed in an environment with climatic conditions that sharply diverge from normal office conditions, it should undergo a process of acclimatization before the first use. This comprises of leaving the device out of the transport packaging for a minimum of 12 hours.
@@ -109,7 +110,7 @@ The **us4R™** should be positioned so that operation is safe --- i.e. on
 a stable, flat surface in a place with no risk of spillage on the device
 and away from the sources of interference and radiation. The external
 power supply and power strip should be placed nearby. For more details
-see section: **6 Description and general rules of use.**
+see section: [Description and general rules of use](#-description-and-general-rules-of-use).
 
 The heat is dissipating by the us4R-3D system during normal work
 conditions and may slightly increase the temperature of the device
@@ -121,8 +122,8 @@ manner that may lead to tripping, mechanical damage, wrenching the
 cables out of the socket and/or damaging them through breaking or
 cutting. The audio frequency noise is coming from the fans and sometimes
 from the HV power supply during transmit during normal work conditions.
-Please consult the Manufacturer guidelines in section **7 Manufacturer
-guidelines and conditions of use.**
+Please consult the Manufacturer guidelines in section [Manufacturer
+guidelines and conditions of use](#-manufacturer-guidelines-and-conditions-of-use).
 
 ## Power switch, cables and ON/OFF button
 
@@ -136,7 +137,7 @@ The us4R™ AC power connector.
 
 ## First use
 
-:::{Danger}
+:::{CAUTION}
 Never unplug the probe from the device during transmission!
 This can result in damage to the transmission unit of the us4R™.
 :::
@@ -145,7 +146,7 @@ This can result in damage to the transmission unit of the us4R™.
 Before first use of the **us4R™**, you must ensure that:
 
 -   the device has been set up according to Manufacturer guidelines
-    found in section **5 System setup**,
+    found in section [System setup](#-system-setup),
 
 -   proper probe adapter has been installed,
 

@@ -1,0 +1,33 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Intended Use}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Interaction of ultrasound}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Phenomena accompanying the ultrasound wave}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Unboxing and setting\sphinxhyphen {}up the device}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Probe Adapters}{6}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Power supply connection}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}System setup}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Power switch, cables and ON/OFF button}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}First use}{10}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Description and general rules of use}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Inputs and outputs}{14}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Connecting ultrasound probes}{14}{section.6.2}%
+\contentsline {section}{\numberline {6.3}PCIe ports}{16}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Connecting the PCIe cables}{16}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Connecting host PC \& display}{17}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}I/O ports}{17}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Setting High\sphinxhyphen {}Voltage (HV) supply for the transmitters}{20}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Cleaning and maintenance of the device}{20}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Software}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Firmware update}{21}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Manufacturer guidelines and conditions of use}{23}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conditions of storage and transport}{23}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Environmental conditions}{23}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Manufacturer EMC recommendations}{23}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Other conditions and recommendations}{24}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Technical specification}{25}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Technical data}{25}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Basic Composition}{25}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Detailed specification}{25}{section.9.3}%
+\contentsline {chapter}{\numberline {10}Legend of symbols}{29}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Current system limitations}{31}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Version history}{33}{chapter.12}%

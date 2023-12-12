@@ -12,13 +12,13 @@ Before first use, you must ensure that the device is complete and in good condit
 Using the us4R™ out of its intended use, or any use that has not been delineated in this manual, will lower the effectiveness of measures put in place to protect the user from danger, and result in a decrease of safety levels.
 :::
   
-The device consists of the **us4R™** device, a host PC computer (picture below), and a set of cables.
+The ready to use setup consists of the **us4R™** device, a host PC computer (picture below), an LCD monitor and a set of cables.
 
 ```{figure} img/us4r+pc.jpeg
 View of a complete system setup.
 ```
 
-**As standard, an LCD monitor and ultrasound probes are not provided by the Manufacturer.**
+**As standard, a host PC, an LCD monitor and ultrasound probes are not provided by the Manufacturer.**
 
 The **us4R™** enables the user to simultaneously connect up to two ultrasound probes (linear/phase/convex). Two connectors (PROBE A and PROBE B) are situated at the top of the device; For matrix-array probe, an dedicated probe adapter is available with 4x DLM6-360 connectors.
 Only a single probe (linear/phase/convex) probe connector is active at a time. An active probe is used to transmit and receive ultrasound signals that are acquired and processed by the system. 
@@ -31,7 +31,7 @@ The processed data can be presented graphically on an LCD monitor. The LCD monit
 
 The LCD monitor can be connected to the PC using a dedicated DisplayPort cable.
 
-:::{Danger}
+:::{Caution}
 Never unplug the probe from the device during transmission!
 This can result in damage to the transmit section of the us4R™ device!
 :::
@@ -94,7 +94,7 @@ A video instruction on how to change the probe adapter for 2D (linear/phase/conv
 
 **PLEASE NOTE:** Only a probe prepared and configured for use with the **us4R™** can be connected to the device. For assistance, please contact the Manufacturer.
 
-:::{Danger}
+:::{Caution}
 Using non-compatible or broken probes can result in damage to the transmission section of the us4R™!
 Such damages are NOT covered under the warranty!
 :::

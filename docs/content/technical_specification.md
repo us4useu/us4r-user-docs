@@ -2,13 +2,15 @@
 
 ## Technical data
 
--   Ultrasound frequencies up to 20 MHz;
+-   Ultrasound frequencies up to 20 MHz (Model: R-2021) or up to 30MHz (Model: R-2023);
 
 -   Mains power supply 120V/60Hz, 230V/50Hz ±10%
 
 -   Power consumption (average) 300W
 
 -   Power consumption (max) 600W (expected at max power)
+
+-   Power supply (max) power 1200W 
 
 -   Dimensions 445 mm × 264 mm × 154\* mm
 
@@ -44,7 +46,7 @@
 * - Number of channels
   - 128‑1024 (depends on configuration)
 * - Transmit frequency
-  - up to 20MHz
+  - up to 20MHz (Model: R-2021); up to 30MHz (Model: R-2023)
 * - Tx time delay resolution
   - up to 5 ns (depends on the system clock)
 * - Programmable TX voltage
