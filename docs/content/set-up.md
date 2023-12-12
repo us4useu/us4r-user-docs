@@ -3,7 +3,7 @@
 The device is delivered to the user pre-assembled and boxed.
 
 The user must connect the components and perform a setup before the
-first use (see: **5 System setup**)*.* The unboxing of the device should
+first use (see: {numref}`Section %s <set-up/system-setup>`). The unboxing of the device should
 be performed with utmost care.
 
 :::{Caution}
@@ -41,6 +41,7 @@ this manual.
 The power cables should be plugged into the 120-230VAC/50Hz/60Hz mains power supply with a protective bonding.
 :::
 
+(set-up/probe-adapters)=
 ## Probe Adapters
 
 Several adapters are available for use with the **us4R™** system. Please
@@ -102,13 +103,14 @@ restored.
 To shut down the us4R™ in case of malfunction, remove the mains power cable from the electrical socket. The electrical sockets should be situated in proximity to the device and be easily accessible.
 :::
 
+(set-up/system-setup)=
 # System setup
 
 The **us4R™** should be positioned so that operation is safe --- i.e. on
 a stable, flat surface in a place with no risk of spillage on the device
 and away from the sources of interference and radiation. The external
 power supply and power strip should be placed nearby. For more details
-see section: **6 Description and general rules of use.**
+see section: {numref}`Section %s <hardware/general>`.
 
 The heat is dissipating by the us4R-3D system during normal work
 conditions and may slightly increase the temperature of the device
@@ -120,9 +122,9 @@ manner that may lead to tripping, mechanical damage, wrenching the
 cables out of the socket and/or damaging them through breaking or
 cutting. The audio frequency noise is coming from the fans and sometimes
 from the HV power supply during transmit during normal work conditions.
-Please consult the Manufacturer guidelines in section **7 Manufacturer
-guidelines and conditions of use.**
+Please consult the Manufacturer guidelines in section ``
 
+(power-switch)=
 ## Power switch, cables and ON/OFF button
 
 The power cables connection is shown in the picture below.
