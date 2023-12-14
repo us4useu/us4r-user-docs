@@ -1,3 +1,4 @@
+(manufacturer-guidelines)=
 # Manufacturer guidelines and conditions of use
 
 ## Conditions of storage and transport

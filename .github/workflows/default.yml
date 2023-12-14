@@ -12,20 +12,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    # HTML
-    - uses: us4useu/sphinx-action@master
-      with:
-        docs-folder: "docs/"
     # PDF.
     - uses: us4useu/sphinx-action@master
       with:
         pre-build-command: "apt-get --allow-releaseinfo-change update -y  && apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk"
-        build-command: "make latexpdf"
+        build-command: "make clean latexpdf"
         docs-folder: "docs/"
     - uses: softprops/action-gh-release@v1
       with:
         files: docs/_build/latex/user_manual.pdf
-    # Publish docs on GH Pages.
+    # HTML
+    - uses: us4useu/sphinx-action@master
+      with:
+        docs-folder: "docs/"
+        build-command: "make clean html"
     - name: Commit documentation changes
       run: |
         git clone https://github.com/us4useu/us4r_user_manual.git --branch gh-pages --single-branch gh-pages

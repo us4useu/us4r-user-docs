@@ -80,6 +80,11 @@ master_doc = 'index'
 
 latex_documents = [('index', 'user_manual.tex', project, author, 'manual')]
 
+
+warning_color = "{RGB}{242,222,166}"
+error_color = "{RGB}{242,159,151}"
+info_color = "{RGB}{231,242,250}"
+
 latex_elements = {
     'preamble': r"""
 \makeatletter
@@ -109,4 +114,15 @@ latex_elements = {
     }
 \makeatother
 """,
+    'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
+    'sphinxsetup': f'attentionBgColor={warning_color}, '
+                   f'warningBgColor={warning_color}, '
+                   f'cautionBgColor={warning_color}, '
+                   f'importantBgColor={warning_color}, '
+                   f'dangerBgColor={error_color}, '
+                   f'errorBgColor={error_color}, '
+                   f'noteBgColor={info_color}, '
+                   f'hintBgColor={info_color}, '
+                   f'tipBgColor={info_color} '
+
 }
