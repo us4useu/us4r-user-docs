@@ -50,9 +50,9 @@
 * - Tx time delay resolution
   - up to 5 ns (depends on the system clock)
 * - Programmable TX voltage
-  - up to 180V~pp~ (±90V) 
+  - up to 180Vpp (±90V) 
 * - TX pulsers levels
-  - 3
+  - 3 (Model: R-2021), 3/5 (Model: R-2023 - depends on configuration)
 * - Per-channel programmable
   - center frequency, pulse width (pulse duty cycle), pulse length, polarity and delay
 * - Pulse repetition frequency
@@ -114,7 +114,7 @@
 * - Average power usage
   - 300W
 * - External dimensions
-  - 445mm × 264mm × 154mm  (height without probe adapter; total height may slightly differ depending on the Probe Adapter used: +31mm (*MAT2372*), +37mm (EPA), +50mm (PAU), +38mm (VPA)*)
+  - 445mm × 264mm × 154<sup>a</sup>mm  *<sup>a</sup>(height without probe adapter; total height may slightly differ depending on the Probe Adapter used: +31mm (MAT2372), +37mm (EPA), +50mm (PAU), +38mm (VPA)*)
 * - Weight
   - 10.5 kg
 * - **Requirements**

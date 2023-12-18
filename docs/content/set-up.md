@@ -114,7 +114,7 @@ and away from the sources of interference and radiation. The external
 power supply and power strip should be placed nearby. For more details
 see section: {numref}`Section %s <hardware/general>`.
 
-The heat is dissipating by the us4R-3D system during normal work
+The heat is dissipating by the **us4R™**  system during normal work
 conditions and may slightly increase the temperature of the device
 surroundings. The ventilation holes on each side of the device must
 remain uncovered to ensure free flow of air. Covering the ventilation
@@ -124,8 +124,8 @@ manner that may lead to tripping, mechanical damage, wrenching the
 cables out of the socket and/or damaging them through breaking or
 cutting. The audio frequency noise is coming from the fans and sometimes
 from the HV power supply during transmit during normal work conditions.
-Please consult the Manufacturer guidelines in section [Manufacturer
-guidelines and conditions of use](#-manufacturer-guidelines-and-conditions-of-use).
+
+Please consult the Manufacturer guidelines in section {numref}`Section %s <manufacturer-guidelines>`.
 
 (power-switch)=
 ## Power switch, cables and ON/OFF button

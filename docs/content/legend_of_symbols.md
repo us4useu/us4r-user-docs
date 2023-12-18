@@ -43,8 +43,8 @@ myst:
       :width: 50px
       :align: center
       ```
-    weee_symbol: |
-      ```{image} img/weee.png
+    weee2_symbol: |
+      ```{image} img/weee2.png
       :alt: weee
       :width: 50px
       :align: center
@@ -62,11 +62,11 @@ myst:
 |
 | {{onoff_symbol}}        | ON/OFF switch                                                                                          |
 | {{dry_symbol}}          | Keep in a dry place                                                                                    |
-| {{temperatures_symbol}} | Range of allowable temperatures.                                                                       |
+| {{temperatures_symbol}} | Range of allowable temperatures of storing and transport.                                                                       |
 | {{manufacture_date_symbol}}  | Date of manufacture. 
 |
 | {{ce_symbol}}           | CE mark confirming the completion of conformity assessment of the product.
 |
-| {{weee_symbol}}         | WEEE -- electronic device, should be disposed of according to existing regulations.                    |
+| {{weee2_symbol}}         | WEEE -- electronic device, should be disposed of according to existing regulations.                    |
 
 
