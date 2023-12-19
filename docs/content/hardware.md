@@ -125,9 +125,6 @@ sure that the connector is latched properly.
 :name: us4r-back-cables
 Back panel of the us4R™ showing the PCIe connectors and properly connected cabling. 
 ```
-
-To disconnect the PCIe cables pull the green tab at the bottom of the PCI cable plug ({numref}`us4r-back-cables`).
-
 ### Connecting host PC & display
 
 The **us4R™** requires an external host PC with an LCD monitor to function correctly. The only way to connect the **us4R™** device to the PC is through the PCIe cables.
