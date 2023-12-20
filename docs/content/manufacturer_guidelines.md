@@ -66,3 +66,24 @@ end of life. To avoid release of such substances into the environment
 and to reduce the use of natural resources, we encourage you to recycle
 this product in an appropriate system that will ensure that most of the
 materials are reused or recycled appropriately.
+
+## Cleaning and maintenance of the device
+
+The **us4R™** device should be cleaned and disinfected according to
+standard procedure. However, it is essential to take additional care not
+to allow any liquids into the device, as this can lead to malfunction
+and the need for servicing.
+
+The cover of the device can be cleaned with a piece of dry cloth,
+ensuring no liquids are transported inside.
+
+:::{Caution}
+You must ensure that no liquids find their way inside the device!
+In case of suspected spillage or moisture inside the device, 
+do not connect the device to a power source or attempt to  
+turn it on, but contact technical service. 
+:::
+
+If the device will not be used over the course of two or more days, it
+should be cleaned and left protected from accidental damage, spillage or
+contamination at a safe location.

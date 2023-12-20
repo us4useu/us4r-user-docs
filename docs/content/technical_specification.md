@@ -4,15 +4,13 @@
 
 -   Ultrasound frequencies up to 20 MHz (Model: R-2021) or up to 30MHz (Model: R-2023);
 
--   Mains power supply 120V/60Hz, 230V/50Hz ±10%
+-   Mains power supply 120V,60Hz / 230V,50Hz ±10%
 
 -   Power consumption (average) 300W
 
--   Power consumption (max) 600W (expected at max power)
+-   Power consumption (max) 1200W (max power of the us4R power supply)
 
--   Power supply (max) power 1200W 
-
--   Dimensions 445 mm × 264 mm × 154\* mm
+-   Product Dimensions (DxWxH) [mm]: 264 x 445 × 154\* mm
 
 > *\*high without probe adapter; total high may slightly differ
 > depending on the Probe Adapter used: +31mm (MAT2372), +37mm (EPA),
@@ -110,11 +108,11 @@
 * - **Power supply**
   - 
 * - Mains power
-  - 120-230VAC, 50Hz/60Hz
+  - 120V,60Hz / 230V,50Hz ±10%
 * - Average power usage
   - 300W
-* - External dimensions
-  - 445mm × 264mm × 154<sup>a</sup>mm  *<sup>a</sup>(height without probe adapter; total height may slightly differ depending on the Probe Adapter used: +31mm (MAT2372), +37mm (EPA), +50mm (PAU), +38mm (VPA)*)
+* - External dimensions (DxWxH) [mm]
+  -  264 x 445 × 154 mm *high without probe adapter; total high may slightly differ depending on the Probe Adapter used: +31mm (MAT2372), +37mm (EPA), +50mm (PAU), +38mm (VPA)*
 * - Weight
   - 10.5 kg
 * - **Requirements**
@@ -132,7 +130,7 @@
 * - GPU (optional)
   - e.g. High-performance NVidia GPU with GPU-Direct support
 * - PCIe adapter card
-  - Dolphinics PXH832
+  - e.g. Dolphinics PXH832 or MXH (depends on configuration)
 * - Accessories
   - e.g. LCD monitor with DP input, USB keyboard and mouse
 :::
