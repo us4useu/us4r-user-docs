@@ -131,7 +131,7 @@ from the HV power supply during transmit during normal work conditions.
 
 Please consult the Manufacturer guidelines in section {numref}`Section %s <manufacturer-guidelines>`.
 
-## Firmware update
+## Firmware and software
 
 For the firmware update and software installation, follow the instructions available
 [here](https://us4useu.github.io/arrus-toolkit/content/installation/index.html).
