@@ -48,7 +48,7 @@ The **us4R™** is equipped with:
 -   up to 2 or 4 probe connectors (depends on the probe adapter
     installed),
 
--   4x or 8x PCIe ports,
+-   4x or 8x PCIe ports (see {numref}`us4r-back`),
 
 -   2x digital inputs,
 
@@ -58,6 +58,7 @@ The **us4R™** is equipped with:
 
 
 ```{figure} img/us4r-back.jpeg
+:name: us4r-back
 :alt: Back-side of the us4R™ device. 
 Back-side of the us4R™ device.
 ```
@@ -69,7 +70,7 @@ longer than 3m.
 (power-switch)=
 ## Power switch, cable and ON/OFF button
 
-The power cable connection is shown in the picture below ({numref}`us4r-back-ac`)
+The power cable connection is shown in the picture below ({numref}`us4r-back-ac`).
 
 ```{figure} img/us4r-back-ac.jpg
 :name: us4r-back-ac
