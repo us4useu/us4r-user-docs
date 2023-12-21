@@ -27,9 +27,10 @@ Step-by-step instruction:
 
     a.  Before login check the color of the LEDs on the back of the PC
         -- all 4 or 8 LED indicators (from the top and/or bottom card)
-        should light up GREEN.
+        should light up GREEN, see {numref}`pcie-cables-1234`.
 
 ```{figure} img/pcie-cables-1234.jpeg
+:name: pcie-cables-1234
 :alt: The PCIe card interface
 
 The host PC: the PCIe card interface with four connected PCIe cables and the PCIe links LEDs.
@@ -48,10 +49,10 @@ The host PC: the PCIe card interface with four connected PCIe cables and the PCI
     displayed on screen, proceed according to instructions.
 
 7.  Install the ARRUS package according to instructions available
-    [here](https://us4useu.github.io/arrus-public/releases/current/python/content/installation/index.html#arrus)
+    [here](https://us4useu.github.io/arrus-toolkit/content/installation/index.html#python)
     (if it is not already installed).
 
-8.  Follow the instruction on how to run "plane wave imaging" example script available [here](https://us4useu.github.io/arrus-public/releases/develop/python/content/examples.html) (section Examples → Plane Wave Imaging). Please remember to use the configuration file provided.
+8.  Follow the instruction on how to run "plane wave imaging" example script available [here](https://us4useu.github.io/arrus-toolkit/content/installation/index.html#python). Please remember to use the provided configuration file.
 
 9.  Once the test is over, close the image window.
 
