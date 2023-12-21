@@ -22,7 +22,7 @@ The **us4R™** is designed for use in the following conditions:
 
 -   environment of II category surge strength (overvoltage)
 
--   2<sup>nd</sup> degree contamination environment
+-   $2^{nd}$ degree contamination environment
 
 -   in closed rooms
 
