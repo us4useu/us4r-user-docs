@@ -7,6 +7,12 @@ myst:
       :width: 50px
       :align: center
       ```
+    warning_symbol: |
+      ```{image} img/warning.png
+      :alt: emc
+      :width: 50px
+      :align: center
+      ```
     onoff_symbol: |
       ```{image} img/onoff.png
       :alt: onoff
@@ -31,8 +37,14 @@ myst:
       :width: 50px
       :align: center
       ```
-    weee_symbol: |
-      ```{image} img/weee.png
+    ce_symbol: |
+      ```{image} img/ce.png
+      :alt: dry
+      :width: 50px
+      :align: center
+      ```
+    weee2_symbol: |
+      ```{image} img/weee2.png
       :alt: weee
       :width: 50px
       :align: center
@@ -44,11 +56,17 @@ myst:
 
 | **SYMBOL**              | **DESCRIPTION**                                                                                        |
 |-------------------------|--------------------------------------------------------------------------------------------------------|
-| {{emc_symbol}}          | Radiation/electromagnetic interference                                                                 |
+| {{emc_symbol}}          | Radiation/electromagnetic interference
+|
+| {{warning_symbol}}      | CAUTION! Consult the instruction manual before use.  
+|
 | {{onoff_symbol}}        | ON/OFF switch                                                                                          |
 | {{dry_symbol}}          | Keep in a dry place                                                                                    |
-| {{temperatures_symbol}} | Range of allowable temperatures.                                                                       |
-| {{manufacture_date_symbol}}  | Date of manufacture.                                                                                   |
-| {{weee_symbol}}         | WEEE -- electronic device, should be disposed of according to existing regulations.                    |
+| {{temperatures_symbol}} | Range of allowable temperatures of storing and transport.                                                                       |
+| {{manufacture_date_symbol}}  | Date of manufacture. 
+|
+| {{ce_symbol}}           | CE mark confirming the completion of conformity assessment of the product.
+|
+| {{weee2_symbol}}         | WEEE -- electronic device, should be disposed of according to existing regulations.                    |
 
 
