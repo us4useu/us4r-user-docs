@@ -31,7 +31,8 @@ Step-by-step instruction:
 
 ```{figure} img/pcie-cables-1234.jpeg
 :name: pcie-cables-1234
-:alt: The PCIe card interface
+:scale: 6 %
+:alt: The PCIe card interface.
 
 The host PC: the PCIe card interface with four connected PCIe cables and the PCIe links LEDs.
 ```
