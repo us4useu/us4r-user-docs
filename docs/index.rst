@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Us4R & Us4R-lite User Manual
+Us4R User Manual
 ==================================================
 
 .. toctree::
@@ -11,10 +11,11 @@ Us4R & Us4R-lite User Manual
    :caption: User Manual
    :numbered:
 
-   content/intro
+   content/intended-use
+   content/alara
    content/set-up
    content/hardware
-   content/software
+   content/first-use
    content/manufacturer_guidelines
    content/technical_specification
    content/legend_of_symbols

@@ -2,15 +2,15 @@
 
 ## Technical data
 
--   Ultrasound frequencies up to 20 MHz;
+-   Ultrasound frequencies up to 20 MHz (Model: R-2021) or up to 30MHz (Model: R-2023);
 
--   Mains power supply 120V/60Hz, 230V/50Hz ±10%
+-   Mains power supply 120V,60Hz / 230V,50Hz ±10%
 
 -   Power consumption (average) 300W
 
--   Power consumption (max) 600W (expected at max power)
+-   Power consumption (max) 1200W (max power of the us4R power supply)
 
--   Dimensions 445 mm × 264 mm × 154\* mm
+-   Product Dimensions (DxWxH) [mm]: 264 x 445 × 154\* mm
 
 > *\*high without probe adapter; total high may slightly differ
 > depending on the Probe Adapter used: +31mm (MAT2372), +37mm (EPA),
@@ -22,13 +22,15 @@
 
 -   the **us4R™** device (with probe adapter)
 
--   PC system controller with GPU cards
-
 -   4 or 8 PCIe cable
 
--   2x mains power cable
+-   1 or 2 PCIe adapter card
+
+-   1x mains power cable
 
 -   (optional) ultrasound probe
+
+-   (optional) PC system controller with GPU cards
 
 -   User Manual
 
@@ -42,13 +44,13 @@
 * - Number of channels
   - 128‑1024 (depends on configuration)
 * - Transmit frequency
-  - up to 20MHz
+  - up to 20MHz (Model: R-2021); up to 30MHz (Model: R-2023)
 * - Tx time delay resolution
   - up to 5 ns (depends on the system clock)
 * - Programmable TX voltage
-  - up to 180V~pp~ (±90V) 
+  - up to 180Vpp (±90V) 
 * - TX pulsers levels
-  - 3
+  - 3 (Model: R-2021), 3/5 (Model: R-2023 - depends on configuration)
 * - Per-channel programmable
   - center frequency, pulse width (pulse duty cycle), pulse length, polarity and delay
 * - Pulse repetition frequency
@@ -106,11 +108,11 @@
 * - **Power supply**
   - 
 * - Mains power
-  - 120-230VAC, 50Hz/60Hz
+  - 120V,60Hz / 230V,50Hz ±10%
 * - Average power usage
   - 300W
-* - External dimensions
-  - 445mm × 264mm × 154mm  (height without probe adapter; total height may slightly differ depending on the Probe Adapter used: +31mm (*MAT2372*), +37mm (EPA), +50mm (PAU), +38mm (VPA)*)
+* - External dimensions (DxWxH) [mm]
+  -  264 x 445 × 154 mm *high without probe adapter; total high may slightly differ depending on the Probe Adapter used: +31mm (MAT2372), +37mm (EPA), +50mm (PAU), +38mm (VPA)*
 * - Weight
   - 10.5 kg
 * - **Requirements**
@@ -128,7 +130,7 @@
 * - GPU (optional)
   - e.g. High-performance NVidia GPU with GPU-Direct support
 * - PCIe adapter card
-  - Dolphinics PXH832
+  - e.g. Dolphinics PXH832 or MXH (depends on configuration)
 * - Accessories
   - e.g. LCD monitor with DP input, USB keyboard and mouse
 :::
