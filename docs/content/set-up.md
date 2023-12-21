@@ -49,9 +49,9 @@ The power cable should be plugged into the 120V,60Hz or 230V,50Hz mains power su
 The 120/230VAC power socket used to power the us4R™ must be equipped with a protective earth wire. It is imperative to ensure that the electrical system provides the fire protection required for the class I devices.
 :::
 
-A loss of mains power during operation will result in an immediate
-shutdown of the device. The **us4R™** will restart once the power is
-restored.
+A loss of mains power during operation will result in an immediate shutdown of the device. The us4R™ will enter standby mode
+once the mains power is restored. ON/OFF button must be pressed to power the us4R™ back on. After power on the host PC must 
+be restarted to restore the communication with the system.
 
 :::{Caution}
 To shut down the us4R™ in case of malfunction, remove the mains power cable from the electrical socket. The electrical sockets should be situated in proximity to the device and be easily accessible.
