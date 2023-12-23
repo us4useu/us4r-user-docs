@@ -17,7 +17,7 @@ Before first use of the **us4R™**, you must ensure that:
 
 Step-by-step instruction:
 
-1.  Connect the mains to the **us4R™** and turn the *Power Switch* on***.***
+1.  Connect the mains to the **us4R™** and turn the *Power Switch* on.
 
 2.  Now, turn on the device by clicking the ON/OFF button.
 

@@ -13,7 +13,7 @@
     - sections numbering changed, 
     - model R-2023 added, 
     - basic composition updated, 
-    - Section *9.3 Detailed specification* updated
+    - Section *7.3 Detailed specification* updated
 * - 5 / 02 MAR 2023
   - BW
   - 
