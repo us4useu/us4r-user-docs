@@ -3,12 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Us4R User Manual
+us4R™ User Manual
 ==================================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Manual
    :numbered:
 
    content/intended-use
@@ -20,4 +19,5 @@ Us4R User Manual
    content/technical_specification
    content/legend_of_symbols
    content/current_limitations
+   content/warranty
    content/version_history

@@ -13,8 +13,7 @@
 
 The **us4R™** is designed for use in the following conditions:
 
--   temperature of environment recommended 16 ÷ 26°C, allowable 10 ÷
-    40°C
+-   temperature of environment recommended 16 ÷ 26°C, allowable 10 ÷ 40°C
 
 -   humidity across the range of allowable temperatures 30% ÷ 85%
 
@@ -37,6 +36,7 @@ should be kept as far as possible from its sources (such as mobile
 phones) during work. If additional interference signals are present and
 their elimination is not possible, the registered waveforms and digital
 values should be ignored.
+
 
 The device has no elements sensitive to a 50Hz/60Hz magnetic field.
 

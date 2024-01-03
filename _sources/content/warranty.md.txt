@@ -1,3 +1,5 @@
-# Warranty
+# General Warranty Terms and Conditions
 
-Standard warranty and technical support for the system cover the first 12 months after the purchase. Free technical support is limited to max 12 man-hours per device.
+Warranty terms for the us4us® products are available [here](https://us4us.eu/assets/us4us-Warranty-RMA-2020-v1.pdf).
+
+General terms and conditions of sale are available [here](https://us4us.eu/assets/us4us-GST-2020-v1.pdf).
