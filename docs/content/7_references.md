@@ -19,6 +19,12 @@ myst:
       :width: 50px
       :align: center
       ```
+    line_symbol: |
+      ```{image} img/line.png
+      :alt: dry
+      :width: 50px
+      :align: center
+      ```
     dry_symbol: |
       ```{image} img/dry.png
       :alt: dry
@@ -71,7 +77,7 @@ myst:
   - ON/OFF switch
 * - {{dry_symbol}} 
   - Keep in a dry place
-* - {{line2_symbol}} 
+* - {{line_symbol}} 
   - AC mains voltage.    
 * - {{temperatures_symbol}} 
   - Range of allowable temperatures of storing and transport. 
@@ -110,7 +116,7 @@ General terms and conditions of sale are available [here](https://us4us.eu/asset
   - 
     - Section 8.3 Detailed specification updated
     - Section 9 Current limitations updated
-* - 6 / 02 MAR 2023
+* - 6 / 02 MAR 2024
   - BW
   - 
     - Instruction updated to include the R-2023 model.

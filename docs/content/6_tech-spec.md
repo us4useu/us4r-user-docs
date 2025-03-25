@@ -52,9 +52,9 @@
   - 
 * - Mains power
   - 120VAC/60Hz, 230VAC/50Hz
-  * Average power usage /Typical max. power usage (active TX/RX)
+* - Average power usage /Typical max. power usage (active TX/RX)
   - 300W / 500W
-  * - Max power
+* - Max power
   - 1200W
 * - **Transmit**
   - 
@@ -104,7 +104,7 @@
 * - **Transducers & Ultrasound probes**
   - 
 * - Ultrasound probe connectors
-  -  2 connectors of the 2D (linear/phase/convex) probe or up to 4 connectors of the 2D array probe (up to 8 connectors for permanently connectd probes)
+  - 2 connectors of the 2D (linear/phase/convex) probe or up to 4 connectors of the 2D array probe (up to 8 connectors for permanently connectd probes)
 * - Supported probes
   -
     - 2D probes (linear/phase/convex): up to 192 el. from Esaote and up to 128 from ATL/Philips/Ultrasonix
@@ -118,7 +118,6 @@
   - 1x/2x 16 GB/s 
 * - Streaming method
   - PCIe Direct Memory Access
-  - 
 * - **Accessories required for operation**
   - 
 * - PC host

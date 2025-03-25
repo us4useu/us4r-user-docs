@@ -76,9 +76,17 @@ consult the list of adapters as shown below:
         - EPA (Ultrasonix Probe Adapter)
         - PAU (Ultrasonix Probe Adapter)
         - VPA (ATL/Philips Probe Adapter)
+        - DLPx (GE/RCA Probe Adapter)
         - 2D MATRIX 2372 Vermon probe
         - Custom Probe Adapter (on request)
 :::
+
+*\* Switching between 4x, 6x and 8x us4OEM module options can be done by
+the Manufacturer only.*
+
+*\*\* Not easily interchangeable! If you plan to use probes above 128
+elements from various manufacturers (e.g. Esaote and Philips probes) please contact us4us to find the best
+solution for you.*
 
 Depends on connector type, we offer the following adapters:
 
@@ -87,7 +95,7 @@ Depends on connector type, we offer the following adapters:
    :header-rows: 1
 
 *   - Connector <br>
-        Type
+    Type
     - Name
     - Rev
     - Supported Probes
@@ -132,27 +140,17 @@ Depends on connector type, we offer the following adapters:
 *   - DL6-360
     - MAT-2732
     - 0.1
-    - Vermon MAT... compatible <br>
+    - 2D MATRIX 2372 Vermon probe compatible <br>
     _[up to 1024-element probes (matrix-array)]_<br>
     _in-probe MUX is not supported!_
     - 
-        - MAT....
+        - MAT 2372
 
 :::
-
-*\* Switching between 4x, 6x and 8x us4OEM module options can be done by
-the Manufacturer only.*
-
-*\*\* Not easily interchangeable! If you plan to use probes above 128
-elements from various manufacturers (e.g. Esaote and Philips probes) please contact us4us to find the best
-solution for you.*
 
 If you cannot find the adapter that suits your application, it is
 possible to order a custom probe adapter from the us4us®. Please contact
 us at <support@us4us.eu> to discuss the options.
-
-If you cannot find the adapter that suits your application, it is possible to order a custom probe adapter from the us4us®. Please contact us at <support@us4us.eu> to discuss the options.
-
 
 :::{Note}
 The system is supplied with one selected probe adapter. 
