@@ -8,7 +8,7 @@ The **us4R™** system is an ultrasound research device designed for transmissio
 
 **The us4R™ is a peripheral device, so in addition to an ultrasound probe, it always requires an external Host PC to work.**
 
-The us4R-lite™ is connected using a PCIe cables ({numref}`us4r+pc`) to a PC running ARRUS™ SDK. 
+The us4R-lite™ is connected using PCIe cables ({numref}`us4r+pc`) to a PC running ARRUS™ SDK. 
 An open-source ARRUS™ SDK (Software Development Kit) is provided to be installed and run on the host PC to execute User’s applications/scripting for device configuration, data acquisition, and custom processing.
   
 The ready to use setup consists of the **us4R™** device, a host PC computer ({numref}`us4r+pc`), an LCD monitor and a set of cables.
