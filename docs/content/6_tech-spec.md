@@ -78,17 +78,17 @@
   - 128‑256 (depends on configuration) 
 * - Frequency range
   - up to 50MHz
-* - Programmable anti-aliasing filter (cutoff)
+* - Programmable anti-aliasing filter (cutoff) (depends on configuration) 
   - 10, 15, 20, 30, 35, 50 MHz 
-* - Amplifier gain
+* - Amplifier gain (depends on configuration) 
   - 
     - LNA with programmable gain: 24, 18, 12 
     - Voltage-Controlled Attenuator: 40dB 
     - Programmable Gain Amplifier: 24, 30 dB 
     - Total signal chain gain: 54 dB (max) 
     - TGC update rate 1MHz
-* - Data sampling
-  - 14-bit @ 65MSPS or 12-bit @ 80MSPS
+* - Data sampling (depends on configuration) 
+  - 14-bit @ 65MSPS or 16-bit @ 120MSPS
 * - Raw data buffer
   - up to 128MB per channel
 * - **External synchronization**
@@ -161,6 +161,6 @@
 ## Current system limitations
 
 Here is a list current system limitations:
-- Standard sampling frequency is 65MSPS. Sampling at 80MSPS requires a change of system firmware.
+- Standard sampling frequency is 65MSPS. Sampling at 120MSPS requires a change of system configuration.
 
 The above limitations may be removed in future versions of the system software/firmware.
