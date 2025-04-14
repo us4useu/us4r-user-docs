@@ -79,7 +79,7 @@
 * - Frequency range
   - up to 50MHz
 * - Programmable anti-aliasing filter (cutoff) (depends on configuration) 
-  - 10, 15, 20, 30, 35, 50 MHz 
+  - 10, 15, 20, 30, 35, 40, 50, 60 MHz 
 * - Amplifier gain (depends on configuration) 
   - 
     - LNA with programmable gain: 24, 18, 12 
