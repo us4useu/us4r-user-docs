@@ -19,7 +19,7 @@ Using the **us4R™** out of its intended use, or any use that has not been deli
 The ready to use setup consists of the **us4R™** device, a host PC computer ({numref}`us4r+pc+conn`), an LCD monitor and a set of cables.
 
 ```{figure} img/us4r+pc+conn.png
-:name: us4r+pc
+:name: us4r+pc+conn
 View of the us4R™, connected to the host PC with PCIe cables.
 ```
 
