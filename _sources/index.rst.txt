@@ -10,14 +10,11 @@ us4R™ User Manual
    :maxdepth: 2
    :numbered:
 
-   content/intended-use
-   content/alara
-   content/set-up
-   content/hardware
-   content/first-use
-   content/manufacturer_guidelines
-   content/technical_specification
-   content/legend_of_symbols
-   content/current_limitations
-   content/warranty
-   content/version_history
+   content/1_introduction
+   content/2_hardware
+   content/3_software
+   content/4_first-use
+   content/5_guidelines-for-use
+   content/6_tech-spec
+   content/7_references
+
