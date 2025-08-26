@@ -227,6 +227,11 @@ A video instruction on how to change the probe adapter for 2D (linear/phase/conv
 Using non-compatible or broken probes can result in damage to the transmission section of the us4R-lite™!
 Such damages are NOT covered under the warranty!
 ```
+ 
+ ```{Caution}
+Possibility of electric shock; Probe connectors are hazardous live terminals. Use only with designated ultrasound probes. Do not touch connectors during operation.
+```
+
 (hardware/pcie-ports)=
 ## PCIe ports 
 
