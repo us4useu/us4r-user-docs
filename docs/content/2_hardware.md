@@ -56,12 +56,13 @@ consult the list of adapters as shown below:
 
 *   - Options \*
     - Probes compatibility
-    - Probe adapters
+    - Probe adapter specific pinouts
 *   - 128 RX (4xus4OEM) 
     - up to 128-element probes (linear/array/convex) 
     - 
         - PAU (Ultrasonix Probe Adapter)
         - VPA (ATL/Philips Probe Adapter)
+        - DRAM (Draminski Probe Adapter)
         - Custom Probe Adapter (on request)
 *   - 192 RX (6xus4OEM) 
     - up to 192-element probes (linear/array/convex) 
@@ -69,6 +70,7 @@ consult the list of adapters as shown below:
         - EPA (Ultrasonix Probe Adapter)\**
         - PAU (Ultrasonix Probe Adapter)\**
         - VPA (ATL/Philips Probe Adapter)\**
+        - DRAM (Draminski Probe Adapter)\**
         - Custom Probe Adapter (on request)
 *   - 256 RX (8xus4OEM) 
     - up to 256-element probes (linear/array/convex) and up to 1024-element matrix-array probes
@@ -76,7 +78,8 @@ consult the list of adapters as shown below:
         - EPA (Ultrasonix Probe Adapter)
         - PAU (Ultrasonix Probe Adapter)
         - VPA (ATL/Philips Probe Adapter)
-        - DLPx (GE/RCA Probe Adapter)
+        - DRAM (Draminski Probe Adapter)
+        - HYPGE/ RCAV (GE/RCA Probe Adapter)
         - 2D MATRIX 2372 Vermon probe
         - Custom Probe Adapter (on request)
 :::
@@ -94,13 +97,15 @@ Depends on connector type, we offer the following adapters:
    :widths: 20 20 20 50 40
    :header-rows: 1
 
-*   - Connector <br>
+*   - Part Number Scheme
+    - Connector <br>
     Type
-    - Name
+    - Specific pinout
     - Rev
     - Supported Probes
     - List of tested probes
-*   - QLC-260
+*   - QLC-260-1-EPA
+    - QLC-260 
     - EPA
     - 3.0
     - ESAOTE compatible <br>
@@ -111,7 +116,17 @@ Depends on connector type, we offer the following adapters:
         - AL2442 linear-array
         - SP2430 phased-array
         - AC2541 convex-array
-*   - DL1-156
+*   - QLC-260-1-DRAM
+    - QLC-260
+    - DRAM
+    - 0.1
+    - Draminski compatible <br>
+    _up to 192-element probes <br>
+    (linear/array/convex)_
+    - 
+        - 10LA linear-array
+*   - DL1-156-1-PAU
+    - DL1-156
     - PAU
     - 1.0
     - ULTRASONIX compatible <br>
@@ -119,7 +134,8 @@ Depends on connector type, we offer the following adapters:
     - 
         - L14-5/38 linear-array
         - L9-4/38 linear-array
-*   - DL5-260
+*   - DL5-260-1-VPA
+    - DL5-260
     - VPA
     - 1.0
     - ATL / Philips compatible <br>
@@ -128,8 +144,10 @@ Depends on connector type, we offer the following adapters:
     - 
         - L7-4/38 linear-array
         - C5-2 convex-array
-*   - DLP-408
-    - DLPx
+*   - DLP-408-1-HYPGE <br>
+    _DLP-408-1-RCAV
+    - DLP-408
+    - HYPGE / RCAV
     - 2.0
     - GE compatible <br>
     RCA compatible <br>
@@ -137,6 +155,14 @@ Depends on connector type, we offer the following adapters:
     - 
         - GE L3-9i-D
         - RCA 128x128 & 64x64
+*   - SEAF-4-3Dto2D
+    - SEAF
+    - 3Dto2D
+    - 2.0
+    - us4us 2D probe adapters compatible <br>
+    _[up to 512-element probes (linear/array/convex/row-column)]_
+    - 
+        - all listed 2D probes
 *   - DL6-360
     - MAT-2732
     - 0.1
@@ -145,8 +171,39 @@ Depends on connector type, we offer the following adapters:
     _in-probe MUX is not supported!_
     - 
         - MAT 2372
+*   - BTB-MEZ-8-VER
+    - BTB-MEZ
+    - VER
+    - 0.1
+    - multi-element probe compatible <br>
+    _[up to 1024-element probes (matrix-array)]_<br>
+    _in-probe MUX is not supported!_
+    - 
+        - custom
+
 
 :::
+
+**Probe Adapter Part Number Scheme**
+
+To ensure clear identification and compatibility, all probe adapters for the us4R™ system follow a standardized coding system:
+
+- ZZZ(Z)-ZZZ(Z) – Connector Type
+- Y – Number of connectors
+- XXX(XXXXX) – Specific connector pinout
+
+Connector Type (ZZZ(Z)-ZZZ(Z))
+Defines the mechanical connector type used in the adapter (e.g., QLC-260, DL1-156).
+
+Number of connectors (Y)
+Indicates how many connectors are implemented in the adapter.
+
+Pinout Specification (XXX(XXXXX))
+Identifies the detailed pinout configuration or mapping of the adapter, ensuring probe compatibility with the us4R™ system.
+
+This convention allows users to quickly determine the connector type, number of connectors, and probe compatibility. 
+Only adapters that follow this coding scheme and are supplied or approved by us4us® should be used to maintain functional compatibility and safety compliance with IEC 61010-1.
+
 
 If you cannot find the adapter that suits your application, it is
 possible to order a custom probe adapter from the us4us®. Please contact
@@ -240,6 +297,14 @@ device.
 
 The PCIe ports are intended for connecting the system to an external host PC using dedicated PCIe cables. The **us4R™** is provided with compatible host PCIe adapter card(s) that should be properly installed in the host PC controller before first use. For the PXH832 PCIe adapter cards follow the instructions available [here](https://www.dolphinics.com/download/PX/OPEN_DOC/PXH832_users_guide.pdf) 
 
+**PCIe Ports – Safety Information**
+The PCIe ports of the us4R™ are low-voltage communication interfaces (SELV) intended exclusively for connection to a compatible host PC through the supplied PCIe cables and adapter card(s).
+Although the PCIe interface itself operates at safety extra-low voltages (3.3V, 12V - internal, LVDS signals), connection is permitted only to a host PC that provides at least the same protection against electric shock as the us4R™ (minimum: Class I, protective earth).
+
+Do not connect the PCIe ports to any device other than the dedicated host PC with the supplied PCIe adapter.
+Do not attempt to modify or access the PCIe connectors while the system is powered.
+
+
 ### Connecting the PCIe cables
 
 The delivered PCIe cables are marked #1 to #4 or #8, to help with proper
@@ -276,6 +341,10 @@ The host PC: the PCIe cables #1..#4 connected to the bottom PCIe interface card.
 :name: pcie-cables-5678
 The host PC: the PCIe cables #5..#8 connected to the top PCIe interface card.
 ```
+**Safety and compatibility requirements:**
+To ensure safe and compliant operation, the following requirements apply when connecting the us4R™ to an external PC:
+- the host PC must provide at least the same level of protection against electric shock as the us4R™ system, i.e., Class I (with protective earth connection) according to IEC 61010-1,
+- class II equipment (with double or reinforced insulation) is acceptable only if explicitly assessed and approved by the system integrator.
 
 ## Digital I/O ports
 
@@ -296,3 +365,9 @@ standard available on the SMA-type connectors:
 :name: us4r-back-io
 Back panel of the us4R™ showing the 4x digitial I/O signals
 ```
+**Safety note:**
+The digital I/O signals (CLOCK IN, TRIG IN, CLOCK OUT, TRIG OUT) are classified as SELV (Safety Extra Low Voltage) circuits and operate at 3.3 V LVTTL logic levels.
+These connectors shall be connected only to equipment that provides SELV-compatible signals and meets at least the same protection against electric shock as the us4R™ (minimum: Class I).
+Applying voltages outside the specified 0–3.3 V range may damage the device and void compliance with IEC 61010-1.
+
+Do not connect these ports to mains-powered circuits, industrial I/O, or non-SELV signals.
