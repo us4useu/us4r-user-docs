@@ -94,7 +94,7 @@ solution for you.*
 Depends on connector type, we offer the following adapters:
 
 :::{list-table} Probe adapters 
-   :widths: 20 20 20 50 40
+   :widths: 30 20 20 10 50 40
    :header-rows: 1
 
 *   - Part Number Scheme
@@ -121,10 +121,10 @@ Depends on connector type, we offer the following adapters:
     - DRAM
     - 0.1
     - Draminski compatible <br>
-    _up to 192-element probes <br>
+    _up to 128-element probes <br>
     (linear/array/convex)_
     - 
-        - 10LA linear-array
+        - 10LA128DRA linear-array
 *   - DL1-156-1-PAU
     - DL1-156
     - PAU
@@ -145,13 +145,14 @@ Depends on connector type, we offer the following adapters:
         - L7-4/38 linear-array
         - C5-2 convex-array
 *   - DLP-408-1-HYPGE <br>
-    _DLP-408-1-RCAV
+    /DLP-408-1-RCAV
     - DLP-408
     - HYPGE / RCAV
     - 2.0
     - GE compatible <br>
     RCA compatible <br>
-    _[up to 256-element probes (linear/array/convex/row-column)]_
+    _[up to 256-element probes (linear/array/convex/row-column)]_<br>
+    _in-probe MUX is not supported!_
     - 
         - GE L3-9i-D
         - RCA 128x128 & 64x64
@@ -163,7 +164,8 @@ Depends on connector type, we offer the following adapters:
     _[up to 512-element probes (linear/array/convex/row-column)]_
     - 
         - all listed 2D probes
-*   - DL6-360
+*   - DL6-360-4-MAT2732
+    - DL6-360
     - MAT-2732
     - 0.1
     - 2D MATRIX 2372 Vermon probe compatible <br>
@@ -180,8 +182,6 @@ Depends on connector type, we offer the following adapters:
     _in-probe MUX is not supported!_
     - 
         - custom
-
-
 :::
 
 **Probe Adapter Part Number Scheme**
