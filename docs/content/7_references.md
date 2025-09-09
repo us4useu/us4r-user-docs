@@ -129,5 +129,9 @@ General terms and conditions of sale are available [here](https://us4us.eu/asset
   - 
     - Instruction updated to include the R-2023 model.
     - Document structure adapted for the online version.
-
+* - 7 / 09 SEP 2025
+  - BW
+  - 
+    - Safety information clarified.
+    - Probe adapter coding and example pinouts added.
 :::
