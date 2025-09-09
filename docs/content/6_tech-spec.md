@@ -56,6 +56,8 @@
   - 300W / 500W
 * - Max power
   - 1200W
+* - Protection class
+  - Class I  
 * - **Transmit**
   - 
 * - Number of channels
