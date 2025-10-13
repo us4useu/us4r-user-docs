@@ -155,7 +155,7 @@ consult the list of adapters as shown below:</p>
 <thead>
 <tr class="row-odd"><th class="head"><p>Options *</p></th>
 <th class="head"><p>Probes compatibility</p></th>
-<th class="head"><p>Probe adapters</p></th>
+<th class="head"><p>Probe adapter specific pinouts</p></th>
 </tr>
 </thead>
 <tbody>
@@ -164,6 +164,7 @@ consult the list of adapters as shown below:</p>
 <td><ul class="simple">
 <li><p>PAU (Ultrasonix Probe Adapter)</p></li>
 <li><p>VPA (ATL/Philips Probe Adapter)</p></li>
+<li><p>DRAM (Draminski Probe Adapter)</p></li>
 <li><p>Custom Probe Adapter (on request)</p></li>
 </ul>
 </td>
@@ -174,6 +175,7 @@ consult the list of adapters as shown below:</p>
 <li><p>EPA (Ultrasonix Probe Adapter)**</p></li>
 <li><p>PAU (Ultrasonix Probe Adapter)**</p></li>
 <li><p>VPA (ATL/Philips Probe Adapter)**</p></li>
+<li><p>DRAM (Draminski Probe Adapter)**</p></li>
 <li><p>Custom Probe Adapter (on request)</p></li>
 </ul>
 </td>
@@ -184,7 +186,8 @@ consult the list of adapters as shown below:</p>
 <li><p>EPA (Ultrasonix Probe Adapter)</p></li>
 <li><p>PAU (Ultrasonix Probe Adapter)</p></li>
 <li><p>VPA (ATL/Philips Probe Adapter)</p></li>
-<li><p>DLPx (GE/RCA Probe Adapter)</p></li>
+<li><p>DRAM (Draminski Probe Adapter)</p></li>
+<li><p>HYPGE/ RCAV (GE/RCA Probe Adapter)</p></li>
 <li><p>2D MATRIX 2372 Vermon probe</p></li>
 <li><p>Custom Probe Adapter (on request)</p></li>
 </ul>
@@ -201,23 +204,26 @@ solution for you.</em></p>
 <table class="docutils align-default" id="id4">
 <caption><span class="caption-number">Table 2.3 </span><span class="caption-text">Probe adapters</span><a class="headerlink" href="#id4" title="Permalink to this table"></a></caption>
 <colgroup>
-<col style="width: 13%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-<col style="width: 33%" />
-<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 6%" />
+<col style="width: 29%" />
+<col style="width: 24%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>Connector <br>
+<tr class="row-odd"><th class="head"><p>Part Number Scheme</p></th>
+<th class="head"><p>Connector <br>
 Type</p></th>
-<th class="head"><p>Name</p></th>
+<th class="head"><p>Specific pinout</p></th>
 <th class="head"><p>Rev</p></th>
 <th class="head"><p>Supported Probes</p></th>
 <th class="head"><p>List of tested probes</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>QLC-260</p></td>
+<tr class="row-even"><td><p>QLC-260-1-EPA</p></td>
+<td><p>QLC-260</p></td>
 <td><p>EPA</p></td>
 <td><p>3.0</p></td>
 <td><p>ESAOTE compatible <br>
@@ -231,7 +237,20 @@ Type</p></th>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td><p>DL1-156</p></td>
+<tr class="row-odd"><td><p>QLC-260-1-DRAM</p></td>
+<td><p>QLC-260</p></td>
+<td><p>DRAM</p></td>
+<td><p>0.1</p></td>
+<td><p>Draminski compatible <br>
+<em>up to 128-element probes <br>
+(linear/array/convex)</em></p></td>
+<td><ul class="simple">
+<li><p>10LA128DRA linear-array</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>DL1-156-1-PAU</p></td>
+<td><p>DL1-156</p></td>
 <td><p>PAU</p></td>
 <td><p>1.0</p></td>
 <td><p>ULTRASONIX compatible <br>
@@ -242,7 +261,8 @@ Type</p></th>
 </ul>
 </td>
 </tr>
-<tr class="row-even"><td><p>DL5-260</p></td>
+<tr class="row-odd"><td><p>DL5-260-1-VPA</p></td>
+<td><p>DL5-260</p></td>
 <td><p>VPA</p></td>
 <td><p>1.0</p></td>
 <td><p>ATL / Philips compatible <br>
@@ -254,19 +274,34 @@ Type</p></th>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td><p>DLP-408</p></td>
-<td><p>DLPx</p></td>
+<tr class="row-even"><td><p>DLP-408-1-HYPGE <br>
+/DLP-408-1-RCAV</p></td>
+<td><p>DLP-408</p></td>
+<td><p>HYPGE / RCAV</p></td>
 <td><p>2.0</p></td>
 <td><p>GE compatible <br>
 RCA compatible <br>
-<em>[up to 256-element probes (linear/array/convex/row-column)]</em></p></td>
+<em>[up to 256-element probes (linear/array/convex/row-column)]</em><br>
+<em>in-probe MUX is not supported!</em></p></td>
 <td><ul class="simple">
 <li><p>GE L3-9i-D</p></li>
 <li><p>RCA 128x128 &amp; 64x64</p></li>
 </ul>
 </td>
 </tr>
-<tr class="row-even"><td><p>DL6-360</p></td>
+<tr class="row-odd"><td><p>SEAF-4-3Dto2D</p></td>
+<td><p>SEAF</p></td>
+<td><p>3Dto2D</p></td>
+<td><p>2.0</p></td>
+<td><p>us4us 2D probe adapters compatible <br>
+<em>[up to 512-element probes (linear/array/convex/row-column)]</em></p></td>
+<td><ul class="simple">
+<li><p>all listed 2D probes</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>DL6-360-4-MAT2732</p></td>
+<td><p>DL6-360</p></td>
 <td><p>MAT-2732</p></td>
 <td><p>0.1</p></td>
 <td><p>2D MATRIX 2372 Vermon probe compatible <br>
@@ -277,8 +312,35 @@ RCA compatible <br>
 </ul>
 </td>
 </tr>
+<tr class="row-odd"><td><p>BTB-MEZ-8-VER</p></td>
+<td><p>BTB-MEZ</p></td>
+<td><p>VER</p></td>
+<td><p>0.1</p></td>
+<td><p>multi-element probe compatible <br>
+<em>[up to 1024-element probes (matrix-array)]</em><br>
+<em>in-probe MUX is not supported!</em></p></td>
+<td><ul class="simple">
+<li><p>custom</p></li>
+</ul>
+</td>
+</tr>
 </tbody>
 </table>
+<p><strong>Probe Adapter Part Number Scheme</strong></p>
+<p>To ensure clear identification and compatibility, all probe adapters for the us4R™ system follow a standardized coding system:</p>
+<ul class="simple">
+<li><p>ZZZ(Z)-ZZZ(Z) – Connector Type</p></li>
+<li><p>Y – Number of connectors</p></li>
+<li><p>XXX(XXXXX) – Specific connector pinout</p></li>
+</ul>
+<p>Connector Type (ZZZ(Z)-ZZZ(Z))
+Defines the mechanical connector type used in the adapter (e.g., QLC-260, DL1-156).</p>
+<p>Number of connectors (Y)
+Indicates how many connectors are implemented in the adapter.</p>
+<p>Pinout Specification (XXX(XXXXX))
+Identifies the detailed pinout configuration or mapping of the adapter, ensuring probe compatibility with the us4R™ system.</p>
+<p>This convention allows users to quickly determine the connector type, number of connectors, and probe compatibility.
+Only adapters that follow this coding scheme and are supplied or approved by us4us® should be used to maintain functional compatibility and safety compliance with IEC 61010-1.</p>
 <p>If you cannot find the adapter that suits your application, it is
 possible to order a custom probe adapter from the us4us®. Please contact
 us at <a class="reference external" href="mailto:support&#37;&#52;&#48;us4us&#46;eu">support<span>&#64;</span>us4us<span>&#46;</span>eu</a> to discuss the options.</p>
@@ -346,12 +408,21 @@ adapters options.</p>
 <p>Using non-compatible or broken probes can result in damage to the transmission section of the us4R-lite™!
 Such damages are NOT covered under the warranty!</p>
 </div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Possibility of electric shock; Probe connectors are hazardous live terminals. Use only with designated ultrasound probes. Do not touch connectors during operation.</p>
+</div>
 </section>
 <section id="pcie-ports">
 <span id="hardware-pcie-ports"></span><h2><span class="section-number">2.7. </span>PCIe ports<a class="headerlink" href="#pcie-ports" title="Permalink to this heading"></a></h2>
 <p>The <strong>us4R™</strong> is equipped with 4 or 8 PCIe ports on the back of the
 device.</p>
 <p>The PCIe ports are intended for connecting the system to an external host PC using dedicated PCIe cables. The <strong>us4R™</strong> is provided with compatible host PCIe adapter card(s) that should be properly installed in the host PC controller before first use. For the PXH832 PCIe adapter cards follow the instructions available <a class="reference external" href="https://www.dolphinics.com/download/PX/OPEN_DOC/PXH832_users_guide.pdf">here</a></p>
+<p><strong>PCIe Ports – Safety Information</strong>
+The PCIe ports of the us4R™ are low-voltage communication interfaces (SELV) intended exclusively for connection to a compatible host PC through the supplied PCIe cables and adapter card(s).
+Although the PCIe interface itself operates at safety extra-low voltages (3.3V, 12V - internal, LVDS signals), connection is permitted only to a host PC that provides at least the same protection against electric shock as the us4R™ (minimum: Class I, protective earth).</p>
+<p>Do not connect the PCIe ports to any device other than the dedicated host PC with the supplied PCIe adapter.
+Do not attempt to modify or access the PCIe connectors while the system is powered.</p>
 <section id="connecting-the-pcie-cables">
 <h3><span class="section-number">2.7.1. </span>Connecting the PCIe cables<a class="headerlink" href="#connecting-the-pcie-cables" title="Permalink to this heading"></a></h3>
 <p>The delivered PCIe cables are marked #1 to #4 or #8, to help with proper
@@ -391,6 +462,12 @@ sure that the connector is latched properly (<a class="reference internal" href=
 <p><span class="caption-number">Fig. 2.8 </span><span class="caption-text">The host PC: the PCIe cables #5…#8 connected to the top PCIe interface card.</span><a class="headerlink" href="#pcie-cables-5678" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
+<p><strong>Safety and compatibility requirements:</strong>
+To ensure safe and compliant operation, the following requirements apply when connecting the us4R™ to an external PC:</p>
+<ul class="simple">
+<li><p>the host PC must provide at least the same level of protection against electric shock as the us4R™ system, i.e., Class I (with protective earth connection) according to IEC 61010-1,</p></li>
+<li><p>class II equipment (with double or reinforced insulation) is acceptable only if explicitly assessed and approved by the system integrator.</p></li>
+</ul>
 </section>
 </section>
 <section id="digital-i-o-ports">
@@ -410,6 +487,11 @@ synchronize transmit events with other devices/systems.</p></li>
 <p><span class="caption-number">Fig. 2.9 </span><span class="caption-text">Back panel of the us4R™ showing the 4x digitial I/O signals</span><a class="headerlink" href="#us4r-back-io" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
+<p><strong>Safety note:</strong>
+The digital I/O signals (CLOCK IN, TRIG IN, CLOCK OUT, TRIG OUT) are classified as SELV (Safety Extra Low Voltage) circuits and operate at 3.3 V LVTTL logic levels.
+These connectors shall be connected only to equipment that provides SELV-compatible signals and meets at least the same protection against electric shock as the us4R™ (minimum: Class I).
+Applying voltages outside the specified 0–3.3 V range may damage the device and void compliance with IEC 61010-1.</p>
+<p>Do not connect these ports to mains-powered circuits, industrial I/O, or non-SELV signals.</p>
 </section>
 </section>
 

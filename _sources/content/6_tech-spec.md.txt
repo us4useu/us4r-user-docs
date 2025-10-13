@@ -51,11 +51,13 @@
 * - **Input**
   - 
 * - Mains power
-  - 120VAC/60Hz, 230VAC/50Hz
+  - 120VAC/60Hz, 230VAC/50Hz ±10%
 * - Average power usage /Typical max. power usage (active TX/RX)
   - 300W / 500W
 * - Max power
   - 1200W
+* - Protection class
+  - Class I  
 * - **Transmit**
   - 
 * - Number of channels
@@ -152,7 +154,7 @@
   - portable
 * - Environmental conditions
   -
-    - Application: laboratory
+    - Application: laboratory (indoor use)
     - up to 2000 m
     - pollution degree II
 :::

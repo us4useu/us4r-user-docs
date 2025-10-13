@@ -42,7 +42,7 @@ A proper operation of the device is described in the next chapters of
 this manual.
 
 :::{Caution}
-The power cable should be plugged into the 120V,60Hz or 230V,50Hz mains power supply with a protective bonding.
+This equipment is classified as Class I according to IEC 61010-1. It must be connected to a mains supply with protective earth (PE). The power cable should be plugged into the 120V,60Hz or 230V,50Hz mains power supply with a protective bonding. 
 :::
 ## Power supply connection
 
